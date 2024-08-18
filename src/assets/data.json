@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "date": "2024-07-30",
+      "title": "Future of AI",
+      "description": "A deep dive into the upcoming trends and innovations in artificial intelligence.",
+      "url": "https://example.com/future-of-ai",
+      "imagesrc":"./image1.jpg"
+    },
+    {
+      "date": "2024-07-25",
+      "title": "Rise of Tech ",
+      "description": "An overview of the electric vehicle market and its growth potential.",
+      "url": "https://example.com/electric-vehicles",
+      "imagesrc": "./crypto.jpg"
+    },
+    {
+      "date": "2024-07-20",
+      "title": "PORTFOLIO",
+      "description": "Latest developments in renewable energy sources and technologies.",
+      "url": "https://example.com/renewable-energy",
+      "imagesrc": "./images3.jpg"
+    }
+    
+  ]
+}
