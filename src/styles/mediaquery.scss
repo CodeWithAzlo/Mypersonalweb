@@ -16,6 +16,7 @@
   #work {
     padding: 8rem $p_md;
     min-height: 100vh;
+    
 
     // padding: 8rem $p_md;
     // height: 1100vh;
@@ -231,12 +232,15 @@
   }
 
   #work {
-    
+    // margin-left: 60px;
+   
+
 
     > section {
+      width: 100%;
       > article {
         width: 100%;
-        height: 30vmax  ;
+        height: 30vmax;
       }
       .workItem {
         height: 30vmax;

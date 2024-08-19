@@ -10,7 +10,7 @@
     {
       "date": "2024-07-25",
       "title": "Rise of Tech ",
-      "description": "An overview of the electric vehicle market and its growth potential.",
+      "description": "The rise of technology in IT has revolutionized the industry,  ",
       "url": "https://example.com/electric-vehicles",
       "imagesrc": "./crypto.jpg"
     },
@@ -20,6 +20,13 @@
       "description": "Latest developments in renewable energy sources and technologies.",
       "url": "https://example.com/renewable-energy",
       "imagesrc": "./images3.jpg"
+    },
+    {
+      "date": "2024-07-20",
+      "title": "It Industry Trend",
+      "description": "High Demand Trends In Industries Artificial Intelligence and Machine Learning,Cloud Computing,Cybersecurity,DevOps and Agile Practices.",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Findustry-growth-trends-challenges-2024-superiorcodelabs-rlmqc&psig=AOvVaw0DiI4NH5047uBFAJoP9CX2&ust=1724145690152000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJC1tLXdgIgDFQAAAAAdAAAAABAE",
+      "imagesrc": "./image4.png"
     }
     
   ]

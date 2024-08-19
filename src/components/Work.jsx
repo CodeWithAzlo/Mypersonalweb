@@ -7,6 +7,7 @@ import data from "../assets/data.json";
 import image1 from "../assets/image1.jpg";
 import images2 from "../assets/images3.jpg";
 import images3 from "../assets/crypto.jpg";
+import image4 from "../assets/image4.png"
 // Import other local images as needed
 
 // Create a mapping of local images
@@ -14,6 +15,7 @@ const localImages = {
   "./image1.jpg": image1,
   "./images3.jpg": images2,
   "./crypto.jpg": images3,
+  "./image4.png":image4,
 };
 
 const Work = () => {
