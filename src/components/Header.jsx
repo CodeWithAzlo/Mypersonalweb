@@ -29,7 +29,7 @@ const Header = ({menuOpen,setMenuOpen}) => {
   const NavContent=({setMenuOpen})=>{
     return(
     <>
-     <h2> CODER-AZLOO  </h2>
+     <h2> CODER-AZLO  </h2>
      <div>
      <a   onClick={()=>setMenuOpen(false)} href="#home">Home</a>
      <a  onClick={()=>setMenuOpen(false)} href="#work">Work</a>
