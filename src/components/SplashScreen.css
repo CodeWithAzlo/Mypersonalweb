@@ -1,0 +1,93 @@
+/* src/components/SplashScreen.css */
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 6vw; /* Responsive font size */
+    color: #d6d8c5; /* Netflix red */
+    letter-spacing: 2px;
+    margin: 0;
+    animation: zoom-in 1s ease forwards;
+    white-space: normal; /* Allow text to wrap to the next line */
+    word-wrap: break-word; /* Ensure words break properly when needed */
+    line-height: 1.2; /* Adjust line height for readability */
+  }
+  
+  .logo + h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+    
+    color: #e50914;
+    
+    margin-top: 10px;
+    animation: fade-in 1.5s ease forwards;
+    white-space: normal; /* Allow text to wrap to the next line */
+    word-wrap: break-word;
+    line-height: 1.2;
+  }
+  
+  /* Animation for zoom-in effect */
+  @keyframes zoom-in {
+    0% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries for Responsive Adjustments */
+  @media (max-width: 768px) {
+    .logo {
+      font-size: 8vw; /* Larger for tablets */
+    }
+  
+    .logo + h2 {
+      font-size: 6vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 9vw; /* Ensure readability on small screens */
+    }
+  
+    .logo + h2 {
+      font-size: 7vw;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .logo {
+      font-size: 10vw; /* Adjust for very small screens */
+    }
+  
+    .logo + h2 {
+      font-size: 8vw;
+    }
+  }
+  
